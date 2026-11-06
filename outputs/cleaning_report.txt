@@ -1,0 +1,169 @@
+
+======================================================================
+NIFTY50
+======================================================================
+Raw rows: 4138   first: 2010-01-04   last: 2026-11-06
+Duplicate dates: 0
+Missing prices: 1   Non-positive prices: 0  -> these rows removed
+Rows on Sat/Sun: 1
+Gaps longer than 5 calendar days: 1
+   gap of 6 days ending 2014-10-07
+Weekdays with NO row (holidays or missing): 258
+Rows with the SAME close as previous row: 4   (longest run: 1)
+Daily vol (std of log return): 1.039%   Flagged moves > 5 sigma: 10
+   2020-03-23  -13.90%   <- CHECK: real event or bad tick?
+   2020-03-12  -8.67%   <- CHECK: real event or bad tick?
+   2020-04-07  +8.40%   <- CHECK: real event or bad tick?
+   2020-03-16  -7.92%   <- CHECK: real event or bad tick?
+   2020-03-25  +6.41%   <- CHECK: real event or bad tick?
+   2024-06-04  -6.11%   <- CHECK: real event or bad tick?
+   2015-08-24  -6.10%   <- CHECK: real event or bad tick?
+   2020-05-04  -5.92%   <- CHECK: real event or bad tick?
+   2020-03-18  -5.72%   <- CHECK: real event or bad tick?
+   2020-03-20  +5.67%   <- CHECK: real event or bad tick?
+Last 3 rows (provisional, may be revised):
+   2026-11-03  23,810.8496
+   2026-11-04  23,960.5996
+   2026-11-05  24,536.5996
+Clean rows: 4137
+
+======================================================================
+BANKNIFTY
+======================================================================
+Raw rows: 4153   first: 2010-01-04   last: 2026-11-06
+Duplicate dates: 0
+Missing prices: 1   Non-positive prices: 0  -> these rows removed
+Rows on Sat/Sun: 0
+Gaps longer than 5 calendar days: 1
+   gap of 6 days ending 2014-10-07
+Weekdays with NO row (holidays or missing): 242
+Rows with the SAME close as previous row: 0   (longest run: 0)
+Daily vol (std of log return): 1.430%   Flagged moves > 5 sigma: 11
+   2020-03-23  -18.31%   <- CHECK: real event or bad tick?
+   2020-04-07  +10.00%   <- CHECK: real event or bad tick?
+   2020-03-12  -9.98%   <- CHECK: real event or bad tick?
+   2013-09-05  +9.04%   <- CHECK: real event or bad tick?
+   2020-05-04  -8.68%   <- CHECK: real event or bad tick?
+   2020-03-16  -8.56%   <- CHECK: real event or bad tick?
+   2024-06-04  -8.28%   <- CHECK: real event or bad tick?
+   2019-09-20  +7.98%   <- CHECK: real event or bad tick?
+   2021-02-01  +7.93%   <- CHECK: real event or bad tick?
+   2020-03-25  +7.72%   <- CHECK: real event or bad tick?
+Last 3 rows (provisional, may be revised):
+   2026-11-03  55,540.0508
+   2026-11-04  55,913.6016
+   2026-11-05  57,773.6484
+Clean rows: 4152
+
+======================================================================
+USDINR
+======================================================================
+Raw rows: 4391   first: 2010-01-01   last: 2026-10-30
+Duplicate dates: 0
+Missing prices: 182   Non-positive prices: 0  -> these rows removed
+Rows on Sat/Sun: 0
+Gaps longer than 5 calendar days: 0
+Weekdays with NO row (holidays or missing): 181
+Rows with the SAME close as previous row: 134   (longest run: 2)
+Daily vol (std of log return): 0.422%   Flagged moves > 5 sigma: 13
+   2013-08-28  +3.79%   <- CHECK: real event or bad tick?
+   2012-09-14  -3.76%   <- CHECK: real event or bad tick?
+   2013-08-29  -3.33%   <- CHECK: real event or bad tick?
+   2013-08-27  +3.03%   <- CHECK: real event or bad tick?
+   2013-09-03  +3.00%   <- CHECK: real event or bad tick?
+   2013-06-10  +2.72%   <- CHECK: real event or bad tick?
+   2013-09-19  -2.57%   <- CHECK: real event or bad tick?
+   2013-07-30  +2.45%   <- CHECK: real event or bad tick?
+   2013-08-19  +2.37%   <- CHECK: real event or bad tick?
+   2011-09-22  +2.35%   <- CHECK: real event or bad tick?
+Last 3 rows (provisional, may be revised):
+   2026-10-28  95.2200
+   2026-10-29  95.2600
+   2026-10-30  94.9400
+Clean rows: 4209
+
+======================================================================
+GOLD
+======================================================================
+Raw rows: 4238   first: 2010-01-04   last: 2026-11-06
+Duplicate dates: 0
+Missing prices: 0   Non-positive prices: 0  -> these rows removed
+Rows on Sat/Sun: 0
+Gaps longer than 5 calendar days: 0
+Weekdays with NO row (holidays or missing): 157
+Rows with the SAME close as previous row: 17   (longest run: 1)
+Daily vol (std of log return): 1.090%   Flagged moves > 5 sigma: 9
+   2026-01-30  -11.41%   <- CHECK: real event or bad tick?
+   2013-04-15  -9.82%   <- CHECK: real event or bad tick?
+   2013-06-20  -6.60%   <- CHECK: real event or bad tick?
+   2026-03-19  -6.12%   <- CHECK: real event or bad tick?
+   2011-09-23  -6.03%   <- CHECK: real event or bad tick?
+   2025-10-21  -5.91%   <- CHECK: real event or bad tick?
+   2026-02-03  +5.89%   <- CHECK: real event or bad tick?
+   2020-03-24  +5.78%   <- CHECK: real event or bad tick?
+   2011-08-24  -5.77%   <- CHECK: real event or bad tick?
+Last 3 rows (provisional, may be revised):
+   2026-11-04  4,073.0000
+   2026-11-05  4,113.5000
+   2026-11-06  4,081.2000
+Clean rows: 4238
+
+----------------------------------------------------------------------
+CROSS-CHECK: Nifty 50 vs Bank Nifty trading dates
+----------------------------------------------------------------------
+Dates only in Nifty: 1   Dates only in Bank Nifty: 16
+   only Nifty: 2025-02-01
+   only BankNifty: 2011-05-31, 2011-07-14, 2011-11-24, 2011-12-26, 2012-01-02, 2012-05-21, 2012-08-28, 2013-01-01, 2014-01-01, 2014-02-17, 2015-01-01, 2015-04-15, 2016-01-01, 2016-08-12, 2018-01-01 ...
+Daily return correlation Nifty vs Bank Nifty: 0.886  (diversification check)
+
+----------------------------------------------------------------------
+CROSS-CHECK: USD/INR  FRED (primary) vs Yahoo
+----------------------------------------------------------------------
+Common dates: 4202  (2010-01-04 -> 2026-10-30)
+Daily return correlation: 0.1459
+   lag test  primary(t) vs other(t+1): corr 0.6432
+   lag test  primary(t) vs other(t+0): corr 0.1459
+   lag test  primary(t) vs other(t-1): corr -0.0313
+Month-end return correlation: 0.9166
+Mean absolute daily disagreement: 0.396%
+Annualised price return  primary: 4.37%   other: 4.38%   gap: -0.01%
+Days where the two disagree by more than 0.5%: 1124
+   by calendar month (clusters in roll months = futures roll artifacts):
+   {1: 83, 2: 75, 3: 115, 4: 99, 5: 109, 6: 88, 7: 87, 8: 102, 9: 96, 10: 105, 11: 80, 12: 85}
+   largest 10 disagreements:
+   2012-01-30  primary-minus-other = +6.64%
+   2012-01-31  primary-minus-other = -6.34%
+   2012-02-01  primary-minus-other = +5.33%
+   2012-01-27  primary-minus-other = -4.93%
+   2013-09-03  primary-minus-other = +4.31%
+   2012-09-14  primary-minus-other = -4.14%
+   2013-08-29  primary-minus-other = -4.06%
+   2013-09-04  primary-minus-other = -4.04%
+   2013-09-19  primary-minus-other = -3.20%
+   2012-09-17  primary-minus-other = +3.12%
+
+----------------------------------------------------------------------
+CROSS-CHECK: GOLD  GC=F (primary) vs GLD ETF
+----------------------------------------------------------------------
+Common dates: 4235  (2010-01-04 -> 2026-11-06)
+Daily return correlation: 0.9027
+   lag test  primary(t) vs other(t+1): corr -0.0352
+   lag test  primary(t) vs other(t+0): corr 0.9027
+   lag test  primary(t) vs other(t-1): corr 0.0814
+Month-end return correlation: 0.9916
+Mean absolute daily disagreement: 0.313%
+Annualised price return  primary: 8.00%   other: 7.53%   gap: +0.47%
+Days where the two disagree by more than 1.0%: 215
+   by calendar month (clusters in roll months = futures roll artifacts):
+   {1: 14, 2: 22, 3: 35, 4: 17, 5: 15, 6: 19, 7: 13, 8: 20, 9: 20, 10: 12, 11: 14, 12: 14}
+   largest 10 disagreements:
+   2013-09-19  primary-minus-other = +4.80%
+   2013-09-18  primary-minus-other = -4.39%
+   2026-06-11  primary-minus-other = -3.55%
+   2016-03-17  primary-minus-other = +3.21%
+   2026-06-12  primary-minus-other = +2.93%
+   2026-06-17  primary-minus-other = +2.92%
+   2026-06-18  primary-minus-other = -2.76%
+   2019-08-01  primary-minus-other = -2.74%
+   2024-08-01  primary-minus-other = +2.56%
+   2026-03-20  primary-minus-other = +2.43%
